@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20160113163910) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "category_id"
+    t.string   "post_status"
   end
 
 end
